@@ -1,0 +1,31 @@
+span{
+    font-size: large;
+}
+.semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 99%;
+    background: rgba(0, 0, 0, 0.99);
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    border: none;
+}
+.right{
+    float:right;
+    color: #ffff
+}
+
+.left{
+    float:left;
+    color:#ffffff;
+    font-weight: 500;
+}
+.icon {
+    float:left;
+    max-width: 40%;
+    max-height: 40%;
+}
