@@ -4,29 +4,26 @@
 <array>
 	<dict>
 		<key>default</key>
-		<string>#636366</string>
+		<string>Simplistic</string>
 		<key>label</key>
-		<string>Colour (Hex)</string>
+		<string>Style</string>
 		<key>name</key>
-		<string>bannerColour</string>
+		<string>styleNumber</string>
+		<key>options</key>
+		<dict>
+			<key>AirPower</key>
+			<string>2</string>
+			<key>Simplistic</key>
+			<string>1</string>
+		</dict>
 		<key>type</key>
-		<string>edit</string>
-	</dict>
-	<dict>
-		<key>default</key>
-		<string>0.9</string>
-		<key>label</key>
-		<string>Opacity</string>
-		<key>name</key>
-		<string>bannerOpacity</string>
-		<key>type</key>
-		<string>edit</string>
+		<string>select</string>
 	</dict>
 	<dict>
 		<key>default</key>
 		<string>Medium</string>
 		<key>label</key>
-		<string>Icon Size</string>
+		<string>Size</string>
 		<key>name</key>
 		<string>size</string>
 		<key>options</key>
@@ -40,6 +37,26 @@
 		</dict>
 		<key>type</key>
 		<string>select</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>0.9</string>
+		<key>label</key>
+		<string>Opacity</string>
+		<key>name</key>
+		<string>bannerOpacity</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>#636366</string>
+		<key>label</key>
+		<string>Colour (Hex)</string>
+		<key>name</key>
+		<string>bannerColour</string>
+		<key>type</key>
+		<string>edit</string>
 	</dict>
 </array>
 </plist>
