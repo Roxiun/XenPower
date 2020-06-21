@@ -10,6 +10,20 @@
             <img id="iconp" class="icon" src="Images/frames/iphonexf.png" ><span id="devicename" class="left"></span><span id="battery" class="right"></span>
         </button>
         <script>
+            if (size==10){
+                document.getElementById('iconp').style.maxWidth = "10%"
+                document.getElementById('iconp').style.maxHeight = "10%"
+            }    
+            if (size==5){
+                document.getElementById('iconp').style.maxWidth = "5%"
+                document.getElementById('iconp').style.maxHeight = "5%"
+            }        
+            if (size==2){
+                document.getElementById('iconp').style.maxWidth = "2%"
+                document.getElementById('iconp').style.maxHeight = "2%"
+            }          
+        </script>
+        <script>
         function mainUpdate(type){
             if(type == "battery"){
                 if (batteryCharging){
