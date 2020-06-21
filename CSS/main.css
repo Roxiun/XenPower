@@ -1,5 +1,6 @@
 span{
     font-size: large;
+    vertical-align: middle;
 }
 .semi-transparent-button {
     display: block;
@@ -26,6 +27,4 @@ span{
 }
 .icon {
     float:left;
-    /* max-width: 5%;
-    max-height: 5%; */
 }
