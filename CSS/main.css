@@ -2,7 +2,7 @@ span{
     font-size: large;
 }
 .semi-transparent-button {
-    display: block;
+    display: table-cell;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 8px;
@@ -11,6 +11,7 @@ span{
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
+    vertical-align: middle;
     transition: all 0.3s ease-out;
     border: none;
 }
