@@ -4,13 +4,13 @@
 <array>
 	<dict>
 		<key>default</key>
-		<integer>90</integer>
+		<string>0.9</string>
 		<key>label</key>
 		<string>Opacity</string>
 		<key>name</key>
 		<string>opacity</string>
 		<key>type</key>
-		<integer>0</integer>
+		<string>edit</string>
 	</dict>
 	<dict>
 		<key>default</key>
