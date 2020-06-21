@@ -4,11 +4,21 @@
 <array>
 	<dict>
 		<key>default</key>
+		<string>#636366</string>
+		<key>label</key>
+		<string>Colour (Hex)</string>
+		<key>name</key>
+		<string>bannerColour</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
 		<string>0.9</string>
 		<key>label</key>
 		<string>Opacity</string>
 		<key>name</key>
-		<string>opacity</string>
+		<string>bannerOpacity</string>
 		<key>type</key>
 		<string>edit</string>
 	</dict>

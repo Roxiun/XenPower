@@ -6,10 +6,12 @@
         <script type="text/javascript" src="JS/main.js"></script>
     </head>
     <body>
-        <button type="button" class="semi-transparent-button">
-            <img id="iconp" class="icon" src="Images/frames/iphonexf.png" ><span id="devicename" class="left"></span><span id="battery" class="right"></span>
+        <button type="button" id="stb" class="semi-transparent-button">
+            <img id="iconp" class="icon" src="Images/frames/iphonexf.png" ><span id="devicename" class="left"></span><span id="battery" class="right"></span><img src="xui://resource/default/battery/100.svg" />
         </button>
         <script>
+            document.getElementById('stb').style.background = bannerColour
+            document.getElementById('stb').style.opacity = bannerOpacity
             if (size==10){
                 document.getElementById('iconp').style.maxWidth = "10%"
                 document.getElementById('iconp').style.maxHeight = "10%"
