@@ -4,6 +4,16 @@
 <array>
 	<dict>
 		<key>default</key>
+		<string>#ffffff</string>
+		<key>label</key>
+		<string>Banner Colour</string>
+		<key>name</key>
+		<string>bannerColour</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
 		<string>Medium</string>
 		<key>label</key>
 		<string>Icon Size</string>
