@@ -7,7 +7,7 @@
     </head>
     <body>
         <button type="button" id="stb" class="semi-transparent-button">
-            <img id="iconp" class="icon" src="Images/frames/iphonexf.png" ><span id="devicename" class="left"></span><span id="battery" class="right"></span><img class="iconr" src="xui://resource/default/battery/100.svg" />
+            <img id="iconp" class="icon" src="Images/frames/iphonexf.png" ><span id="devicename" class="left"></span><span id="battery" class="right"></span><img id="iconb" class="iconr" src="xui://resource/default/battery/100.svg" />
         </button>
         <script>
             document.getElementById('stb').style.background = bannerColour
@@ -15,15 +15,22 @@
             if (size==10){
                 document.getElementById('iconp').style.maxWidth = "10%"
                 document.getElementById('iconp').style.maxHeight = "10%"
+                document.getElementById('iconb').style.maxWidth = "10%"
+                document.getElementById('iconb').style.maxHeight = "10%"
             }    
             if (size==5){
                 document.getElementById('iconp').style.maxWidth = "5%"
                 document.getElementById('iconp').style.maxHeight = "5%"
+                document.getElementById('iconb').style.maxWidth = "5%"
+                document.getElementById('iconb').style.maxHeight = "5%"
             }        
             if (size==2){
                 document.getElementById('iconp').style.maxWidth = "3%"
                 document.getElementById('iconp').style.maxHeight = "3%"
+                document.getElementById('iconb').style.maxWidth = "1%"
+                document.getElementById('iconb').style.maxHeight = "1%"
             }          
+            
         </script>
         <script>
         function mainUpdate(type){
