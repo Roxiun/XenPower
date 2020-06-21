@@ -27,6 +27,7 @@ span{
 .icon {
     float:left;
 }
-.iconr {
+.iconb {
     float:right;
+    vertical-align: middle;
 }
