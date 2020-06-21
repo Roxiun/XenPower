@@ -8,7 +8,7 @@
 		<key>label</key>
 		<string>Icon Size</string>
 		<key>name</key>
-		<string>Icon Size</string>
+		<string>size</string>
 		<key>options</key>
 		<dict>
 			<key>Large</key>
