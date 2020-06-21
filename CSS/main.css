@@ -3,7 +3,7 @@ span{
     line-height: 190%
 }
 .semi-transparent-button {
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 8px;
@@ -14,6 +14,7 @@ span{
     text-decoration: none;
     transition: all 0.3s ease-out;
     border: none;
+    position: relative
 }
 .right{
     float:right;
@@ -31,5 +32,4 @@ span{
 .iconb {
     float:right;
     vertical-align: middle;
-    top: 50%;
 }
