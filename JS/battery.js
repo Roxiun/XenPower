@@ -22,7 +22,5 @@ function mainUpdate(type){
         } else {
             document.getElementById("battery").innerHTML = batteryPercent+"%";
         }
-    }else if(type == "system"){
-        document.getElementById("devicename").innerHTML = deviceName;
     }
 }
