@@ -1,4 +1,4 @@
-api.resources.observeData(function (newData) {
+/* api.resources.observeData(function (newData) {
     var isCharging = newData.battery.state;  
     document.getElementById('deviceName').innerHTML = newData.deviceName;
 
@@ -10,4 +10,19 @@ api.resources.observeData(function (newData) {
         document.getElementById("battery").innerHTML = newData.battery.percentage+"%";
         document.getElementById("battery").appendChild(ci)
     }
-});
+}); */
+function mainUpdate(type){
+    if(type == "battery"){
+        if (batteryCharging){
+            var ci = document.createElement("i");
+            ci.className = "fas fa-bolt";
+            document.getElementById("battery").innerHTML = batteryPercent+"%"
+            document.getElementById("battery").appendChild(ci);
+
+        } else {
+            document.getElementById("battery").innerHTML = batteryPercent+"%";
+        }
+    }else if(type == "system"){
+        document.getElementById("devicename").innerHTML = deviceName;
+    }
+}
